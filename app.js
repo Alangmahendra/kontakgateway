@@ -26,7 +26,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 mongoose.connect('mongodb://localhost/gatewaykontak')
 app.use(cors())
 
-app.use('/gateway', routes)
+app.use('/', routes)
 
 /// catch 404 and forwarding to error handler
 app.use(function(req, res, next) {

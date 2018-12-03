@@ -6,8 +6,8 @@ Api Gateway Untuk Semua Apps Yang Dikelola VMS
 
     |ROUTE                           |HTTP|DESCRIPTION                   |
     |--------------------------------|----|------------------------------|
-    |/gateway/sendmail?to={apps name}|POST|kirim pertanyaan spesifik apps|
-    |/gateway/bukutamu?to={apps name}|GET |list pertanyaan spesifik apps |
+    |/sendmail?to={apps name}|POST|kirim pertanyaan spesifik apps|
+    |/bukutamu?to={apps name}|GET |list pertanyaan spesifik apps |
 
 ## APP List String Query 
 
